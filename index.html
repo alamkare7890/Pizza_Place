@@ -1,0 +1,1960 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <title>Pizza Place</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+    <!--=============header-section starts here===========-->
+        <header class="header-main">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg justify-content-between navigation-icon">
+                        <a href="#" class="navbar-brand location">
+                            <i class="fa fa-map-marker"></i>
+                            Corso Itali Aa Naples, Az 85022.
+                        </a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">+1 718-904-4450</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    New York
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fab fa-wordpress"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                <!--  <div class="row">
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <i class="fa fa-navicon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <img src="image/png/pizzalian-logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#">
+                                <i class=" fa fa-shop"></i>
+                            </a>
+                        </div>
+                    </div>-->
+                </nav>
+                <nav class="navbar p-0 navbar-expand-lg justify-content-between navigation-bar">
+                            <div class="nav-icon navbar p-0">
+                                <!--<a href="#" class="second-head">
+                                    <i class="fas fa-bars"></i>
+                                </a>-->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pizzaNav" aria-controls="pizzaNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="nav-toggle-icon" id="colToggle"></span>
+                                </button>
+                            </div>
+
+                            <ul class="navbar-nav navi-list">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Menu
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Shop
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </li> 
+                                <li class="nav-items">
+                                    <a href="#" class="nav-link">Blog
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="nav-logo">
+                                <a href="#" class="nav-brand">
+                                    <img src="image/png/pizzalian-logo.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="cart-box">
+                                <a href="#" class="basket-box second-head">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    <span class="badge">0</span>
+                                </a>
+                            </div>
+                            <div class="collapse nav-collapse d-none" id="pizzaNav">
+                                <ul class="navbar-nav toggle-nav">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Home
+                                        <i class="fas fa-concierge-bell"></i>
+                                    </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Menu
+                                        <i class="fab fa-elementor"></i>
+                                    </a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">About
+                                        <i class="fas fa-info"></i>
+                                    </a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Shop
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                    </li> 
+                                    <li class="nav-items">
+                                        <a href="#" class="nav-link">Blog
+                                        <i class="fas fa-blog"></i>
+                                    </a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Contact</a>
+                                        <i class="fas fa-address-book"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="header-content">
+                        <h4 class="small-head">FREE PIZZA</h4>
+                        <h1 class="ultra-head">Delivery  We Care About Our Customers</h1>
+                        <a href="#" class="btn order-btn">
+                            <i class="fas fa-cart-arrow-down"></i>
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="header-bg-image">
+            <img src="image/jpg/image.png" alt="">
+        </div>
+
+    <!--=============header-section ends here===========-->
+
+    <!--=============benefits-section starts here===========-->
+        <section class="our-benefit">
+            <div class="container px-0">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-xs-12 col-12">
+                        <div class="bg-break-image">
+                            <img src="image/jpg/h2_banner-1.png" alt="">
+                        </div>
+                        <div class="break-content">
+                            <p class="para">Breakfast Menu</p>
+                            <h3 class="second-head">
+                                Veggie Lover
+                            </h3>
+                            <a href="#" class="btn order-btn">
+                                Order Now
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-xs-12 col-12">
+                        <div class="bg-wrap-image">
+                            <img src="image/jpg/h2_banner-2.png" alt="">
+                        </div>
+                        <div class="wrap-content">
+                            <p class="para">Chicken Wrap</p>
+                            <h3 class="second-head">
+                                Only in Local
+                            </h3>
+                            <a href="#" class="btn order-btn">
+                                Order Now
+                            </a>
+                        </div>
+                        
+                    </div>
+           
+                    <div class="col-lg-12 col-xl-4 col-md-12 col-sm-12 col-xs-12 col-12">
+                        <div class="bg-chicken-image">
+                            <img src="image/jpg/h2_banner-3.png" alt="">
+                        </div>
+                        <div class="chicken-content">
+                            <p class="para">Grilled Chicken</p>
+                            <h3 class="second-head">
+                                Summer Pizza
+                            </h3>
+                            <a href="#" class="btn order-btn">
+                                Order Now
+                            </a>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="benefit-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
+                            <div class="facility">
+                                <div class="row justify-content-between">
+                                    <div class="image col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+                                        <img src="image/png/fast-delivery.png" alt="">
+                                    </div>
+                                    <div class="col-lg-10 col-md-9 col-sm-10 col-xs-10 col-10">
+                                        <h3 class="small-head">Free shiping</h3>
+                                        <p class="para">
+                                            Sign up for updates and ghet free shiping
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
+                            <div class="facility">
+                                <div class="row justify-content-between">
+                                    <div class="image col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+                                        <img src="image/png/clock.png" alt="">
+                                    </div>
+                                    <div class="col-lg-10 col-md-9 col-sm-10 col-xs-10 col-10">
+                                        <h3 class="small-head">30 Minutes Delivery</h3>
+                                        <p class="para">
+                                            Everything you order will be quickly delivered to your door.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12">
+                            <div class="facility">
+                                <div class="row justify-content-between">
+                                    <div class="image col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+                                        <img src="image/png/pizza.png" alt="">
+                                    </div>
+                                    <div class="col-lg-10 col-md-9 col-sm-10 col-xs-10 col-10">
+                                        <h3 class="small-head">Best Quality Gurantee</h3>
+                                        <p class="para">
+                                            Pilzalian is an international chain of family resturants.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        
+
+                </div>
+            </div>
+        </section>
+    <!--=============benefits-section ends here===========-->
+
+    <!--=============header-section starts here===========-->
+        <section class="our-product">
+            <div class="container">
+                <div class="product-head">
+                    <h2 class="second-head">
+                        OUR DELICIOUS BURGERS
+                    </h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="product-navigation">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-6 col-sm-4 col-xs-6 col-6 col-10 col-8 mx-auto">
+                            <div class="list-group product-nav" role="tablist">
+                                <a href="#itemPizza" class="list-group-item list-group-item-action get-item active" id="delightPizza"  data-toggle="list" role="tab" aria-controls="pizza">Pizza Sets</a>
+                                <a href="#itemBurger" class="list-group-item list-group-item-action get-item" id="delightBurger"  data-toggle="list" role="tab" aria-controls="burger">Burders</a>
+                                <a href="#itemSauces" class="list-group-item list-group-item-action get-item" id="delightSauces"  data-toggle="list" role="tab" aria-controls="sauces">Sauces</a>
+                                <a href="#itemSoup" class="list-group-item list-group-item-action get-item" id="delightSoup"  data-toggle="list" role="tab" aria-controls="soups">Soups</a>
+                                <a href="#itemFries" class="list-group-item list-group-item-action get-item" id="delightFries"  data-toggle="list" role="tab" aria-controls="fries">Fries</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="delight-item">
+                    <div class="row">
+                            <div class="tab-content">
+                                <div class="tab-pane show fade active" id="itemPizza" role="tabpanel" aria-labelledby="delightPizza">
+                                    <div class="container-fluid">
+                                        <div class="item-align">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">Fantastice iron shoes</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00 - $187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p2-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleek iron clock</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00-$187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p4-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">gorgerous silk plate</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00-$187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                                                                              
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p5-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">Fantastic marble bag</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00-$187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p6-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">incredible rubber coat</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00-$187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p7-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">durable steel chair</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00-$187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 mx-auto col-10">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/piza/p1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">eronomic marble lamp</h4>
+                                                            <p class="para">Pizza. Uncategories</p>
+                                                            <div class="rate">
+                                                                <span>$101.00-$187.00</span>
+                                                            </div>
+                                                            <a href="" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Select options
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--Slide Start here-->
+                                        <div class="product-slide">
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p1-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">Fantastice iron shoes</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00 - $187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p2-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">sleek iron clock</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00-$187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p4-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">gorgerous silk plate</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00-$187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>                                                                                                              
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p5-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">Fantastic marble bag</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00-$187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p6-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">incredible rubber coat</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00-$187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p7-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">durable steel chair</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00-$187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <div class="item">
+                                                <div class="image">
+                                                    <img src="image/jpg/piza/p1-480x480.jpg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h4 class="item-head">eronomic marble lamp</h4>
+                                                    <p class="para">Pizza. Uncategories</p>
+                                                    <div class="rate">
+                                                        <span>$101.00-$187.00</span>
+                                                    </div>
+                                                    <a href="" class="btn order-btn">
+                                                        <i class="fas fa-cart-arrow-down"></i>
+                                                        Select options
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="itemBurger" role="tabpanel" aria-labelledby="delightBurger">
+                                    <div class="container">
+                                        <div class="item-align">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/burger/h-1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">rustic linen chair</h4>
+                                                            <p>Hamburger Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$125.12</del>
+                                                                <span>$52.10</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">hot</span>
+
+                                                            <img src="image/jpg/burger/h-2-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">heavy duty cpper knife</h4>
+                                                            <p>Hamburger Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$125.12</del>
+                                                                <span>$52.10</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to car
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                        <span class="badge badge-light custom-badge">sale</span>
+                                                            <img src="image/jpg/burger/h3-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">enormous cotton pants</h4>
+                                                            <p>Hamburger Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$125.12</del>
+                                                                <span>$52.10</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>                                       
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">incredible granite clock</h4>
+                                                            <p>Hamburger Uncategorized</p>
+                                                            <div class="rate">
+                                                                <span>$62.40</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/burger/h5-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">veggie Burger</h4>
+                                                            <p>Hamburger Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$125.12</del>
+                                                                <span>$72.10</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>                                           
+                                            </div>
+                                        </div>
+
+                                        <!--slide-start here-->
+                                        <div class="product-slide">
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <img src="image/jpg/burger/h-1-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">rustic linen chair</h4>
+                                                        <p>Hamburger Uncategorized</p>
+                                                        <div class="rate">
+                                                            <del>$125.12</del>
+                                                            <span>$52.10</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <span class="badge badge-light custom-badge">hot</span>
+
+                                                        <img src="image/jpg/burger/h-2-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">heavy duty cpper knife</h4>
+                                                        <p>Hamburger Uncategorized</p>
+                                                        <div class="rate">
+                                                            <del>$125.12</del>
+                                                            <span>$52.10</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to car
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                    <span class="badge badge-light custom-badge">sale</span>
+                                                        <img src="image/jpg/burger/h3-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">enormous cotton pants</h4>
+                                                        <p>Hamburger Uncategorized</p>
+                                                        <div class="rate">
+                                                            <del>$125.12</del>
+                                                            <span>$52.10</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>                                       
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">incredible granite clock</h4>
+                                                        <p>Hamburger Uncategorized</p>
+                                                        <div class="rate">
+                                                            <span>$62.40</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <img src="image/jpg/burger/h5-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">veggie Burger</h4>
+                                                        <p>Hamburger Uncategorized</p>
+                                                        <div class="rate">
+                                                            <del>$125.12</del>
+                                                            <span>$72.10</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="itemSauces" role="tabpanel" aria-labelledby="delightSauces">
+                                    <div class="container">
+                                        <div class="item-align">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/souses/s1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">Fantastic marble lamp</h4>
+                                                            <p class="para">Salads. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$77.76</del>
+                                                                <span>$6.75</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                        <div class="item">
+                                                            <div class="image">
+                                                                <span class="badge badge-light custom-badge">sale</span>
+
+                                                                <img src="image/jpg/souses/s2-480x480.jpg" alt="">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="item-head">awesome linen car</h4>
+                                                                <p class="para">Salads. Uncategorized</p>
+                                                                <div class="rate">
+                                                                    <del>$77.76</del>
+                                                                    <span>$62.75</span>
+                                                                </div>
+                                                                <a href="#" class="btn order-btn">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                    Add to cart
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/souses/s3-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleekk marble bag</h4>
+                                                            <p class="para">Salads. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$77.76</del>
+                                                                <span>$6.75</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">sale</span>
+                                                            <img src="image/jpg/souses/s4-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">awesome plastic bag</h4>
+                                                            <p class="para">Salads. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$77.76</del>
+                                                                <span>$6.75</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--sldie-start here-->
+
+                                        <div class="product-slide">
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/souses/s1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">Fantastic marble lamp</h4>
+                                                            <p class="para">Salads. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$77.76</del>
+                                                                <span>$6.75</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">sale</span>
+
+                                                            <img src="image/jpg/souses/s2-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">awesome linen car</h4>
+                                                            <p class="para">Salads. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$77.76</del>
+                                                                <span>$62.75</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product">       
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/souses/s3-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleekk marble bag</h4>
+                                                            <p class="para">Salads. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$77.76</del>
+                                                                <span>$6.75</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <span class="badge badge-light custom-badge">sale</span>
+                                                        <img src="image/jpg/souses/s4-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">awesome plastic bag</h4>
+                                                        <p class="para">Salads. Uncategorized</p>
+                                                        <div class="rate">
+                                                            <del>$77.76</del>
+                                                            <span>$6.75</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                   
+                                </div>
+                                <div class="tab-pane" id="itemSoup" role="tabpanel" aria-labelledby="delightSoup">
+                                    <div class="container">
+                                        <div class="item-align">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">sale</span>
+                                                            <img src="image/jpg/Sopups/o1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">ERGONIMIC linen gloves</h4>
+                                                            <p class="para">Soup. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$64.96</del>
+                                                                <span>$58.36</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/Sopups/o2-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">Paper gloves</h4>
+                                                            <p class="para">Soup. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <span>$184.27</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/Sopups/o3-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">Steel bench</h4>
+                                                            <p class="para">Soup. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <span>$127.94</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-slide">
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <span class="badge badge-light custom-badge">sale</span>
+                                                        <img src="image/jpg/Sopups/o1-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">ERGONIMIC linen gloves</h4>
+                                                        <p class="para">Soup. Uncategorized</p>
+                                                        <div class="rate">
+                                                            <del>$64.96</del>
+                                                            <span>$58.36</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product">
+                                                <div class="item">
+                                                    <div class="image">
+                                                        <img src="image/jpg/Sopups/o2-480x480.jpg" alt="">
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4 class="item-head">Paper gloves</h4>
+                                                        <p class="para">Soup. Uncategorized</p>
+                                                        <div class="rate">
+                                                            <span>$184.27</span>
+                                                        </div>
+                                                        <a href="#" class="btn order-btn">
+                                                            <i class="fas fa-cart-arrow-down"></i>
+                                                            Add to cart
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product">
+                                                <div class="item">
+                                                            <div class="image">
+                                                                <img src="image/jpg/Sopups/o3-480x480.jpg" alt="">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="item-head">Steel bench</h4>
+                                                                <p class="para">Soup. Uncategorized</p>
+                                                                <div class="rate">
+                                                                    <span>$127.94</span>
+                                                                </div>
+                                                                <a href="#" class="btn order-btn">
+                                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                                    Add to cart
+                                                                </a>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="itemFries" role="tabpanel" aria-labelledby="delightFries">
+                                    <div class="container">
+                                        <div class="item-align">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/wrap/k1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleek paper bottle</h4>
+                                                            <p class="para">Kebab. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$52.07</del>
+                                                                <span>$33.87</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">hot</span>
+                                                            <img src="image/jpg/wrap/k1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">intelligent wooden</h4>
+                                                            <p class="para">Kebab. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$52.07</del>
+                                                                <span>$33.87</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">sale</span>
+                                                            <img src="image/jpg/wrap/k2-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleek paper bottle</h4>
+                                                            <p class="para">Kebab. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$161.56</del>
+                                                                <span>$125.45</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--slide start here-->
+                                        
+                                        <div class="product-slide">
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <img src="image/jpg/wrap/k1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleek paper bottle</h4>
+                                                            <p class="para">Kebab. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$52.07</del>
+                                                                <span>$33.87</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">hot</span>
+                                                            <img src="image/jpg/wrap/k1-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">intelligent wooden</h4>
+                                                            <p class="para">Kebab. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$52.07</del>
+                                                                <span>$33.87</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product">
+                                                    <div class="item">
+                                                        <div class="image">
+                                                            <span class="badge badge-light custom-badge">sale</span>
+                                                            <img src="image/jpg/wrap/k2-480x480.jpg" alt="">
+                                                        </div>
+                                                        <div class="content">
+                                                            <h4 class="item-head">sleek paper bottle</h4>
+                                                            <p class="para">Kebab. Uncategorized</p>
+                                                            <div class="rate">
+                                                                <del>$161.56</del>
+                                                                <span>$125.45</span>
+                                                            </div>
+                                                            <a href="#" class="btn order-btn">
+                                                                <i class="fas fa-cart-arrow-down"></i>
+                                                                Add to cart
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="#" class="btn other-btn">
+                        <i class="fas fa-th-large"></i>
+                        All Product
+                    </a>
+                </div>
+            </div>
+        </section>
+    <!--=============header-section starts here===========-->
+
+    <!--=============about-section starts here===========-->
+        <section class="about-product">
+            <div class="container">
+                <div class="about-pro-content">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-6 col-sm-6  col-sm-12 col-12">
+                            <div class="content">
+                                <h5 class="small-head">concept</h5>
+                                <h2 class="main-head">so, what is pizza</h2>
+                                <p class="para">
+                                    Nota pizza, not a flatbread Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui magnam eos.
+                                </p>
+                                <a href="#" class="btn other-btn">
+                                    <i class="fas fa-th-large"></i>
+                                    Order Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 image col-md-6 col-sm-6 col-sm-12 col-12">
+                            <img src="image/jpg/h2_img-2.png" alt="">
+                        </div>
+                    </div0 mx-auto col-10
+                </div>
+            </div>
+        </section>
+    <!--=============about-section ends here===========-->
+
+    <!--=============popular-section starts here===========-->
+        <section class="popular-product">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="popular-content"> 
+                            <h2 class="second-head">
+                                popular burgers
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <div class="button-box">
+                            <a href="#" class="btn order-btn">
+                                <i class="fas fa-cart-arrow-down"></i>
+                                All Product
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="container">
+                <div class="delight-item">
+                    <div class="item-align">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/wrap/k1-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">intelligent wooden</h4>
+                                        <p class="para">Kebab. Uncategorized</p>
+                                        <div class="rate">
+                                            <del>$52.07</del>
+                                            <span>$33.87</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">incredible granite clock</h4>
+                                        <p>Hamburger Uncategorized</p>
+                                        <div class="rate">
+                                            <span>$62.40</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">incredible granite clock</h4>
+                                        <p>Hamburger Uncategorized</p>
+                                        <div class="rate">
+                                            <span>$62.40</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/wrap/k2-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">sleek paper bottle</h4>
+                                        <p class="para">Kebab. Uncategorized</p>
+                                        <div class="rate">
+                                            <del>$161.56</del>
+                                            <span>$125.45</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/wrap/k2-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">sleek paper bottle</h4>
+                                        <p class="para">Kebab. Uncategorized</p>
+                                        <div class="rate">
+                                            <del>$161.56</del>
+                                            <span>$125.45</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">incredible granite clock</h4>
+                                        <p>Hamburger Uncategorized</p>
+                                        <div class="rate">
+                                            <span>$62.40</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                  
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/burger/h5-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">veggie Burger</h4>
+                                        <p>Hamburger Uncategorized</p>
+                                        <div class="rate">
+                                            <del>$125.12</del>
+                                            <span>$72.10</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="item-head">incredible granite clock</h4>
+                                        <p>Hamburger Uncategorized</p>
+                                        <div class="rate">
+                                            <span>$62.40</span>
+                                        </div>
+                                        <a href="#" class="btn order-btn">
+                                            <i class="fas fa-cart-arrow-down"></i>
+                                            Add to cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                  
+                        </div>
+                    </div>
+
+                    <div class="popular-slide">
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/wrap/k1-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">intelligent wooden</h4>
+                                <p class="para">Kebab. Uncategorized</p>
+                                <div class="rate">
+                                    <del>$52.07</del>
+                                    <span>$33.87</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">incredible granite clock</h4>
+                                <p>Hamburger Uncategorized</p>
+                                <div class="rate">
+                                    <span>$62.40</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/burger/h5-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">veggie Burger</h4>
+                                <p>Hamburger Uncategorized</p>
+                                <div class="rate">
+                                    <del>$125.12</del>
+                                    <span>$72.10</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">incredible granite clock</h4>
+                                <p>Hamburger Uncategorized</p>
+                                <div class="rate">
+                                    <span>$62.40</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">incredible granite clock</h4>
+                                <p>Hamburger Uncategorized</p>
+                                <div class="rate">
+                                    <span>$62.40</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/wrap/k2-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">sleek paper bottle</h4>
+                                <p class="para">Kebab. Uncategorized</p>
+                                <div class="rate">
+                                    <del>$161.56</del>
+                                    <span>$125.45</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/burger/h4-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">incredible granite clock</h4>
+                                <p>Hamburger Uncategorized</p>
+                                <div class="rate">
+                                    <span>$62.40</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="image/jpg/wrap/k2-480x480.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h4 class="item-head">sleek paper bottle</h4>
+                                <p class="para">Kebab. Uncategorized</p>
+                                <div class="rate">
+                                    <del>$161.56</del>
+                                    <span>$125.45</span>
+                                </div>
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!--=============popular-section ends here===========-->
+
+    <!--=============review-section starts here===========-->
+        <section class="our-review">
+            <div class="container">
+                <div class="our-des">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-5 col-sm-11 mx-auto col-11">
+                            <div class="image-view">
+                                <img src="image/jpg/h2_img-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-md-6 col-sm-11 mx-auto col-11">
+                            <div class="review-content">
+                                <h2 class="second-head"> 
+                                    we make the best pizza your town
+                                </h2>
+                                <p class="para">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim alias eius voluptatum sunt ea at in? Ex officia ullam quo! Odio illo ullam architecto eum.
+                                </p>
+                                <div class="element">
+                                    <ul>
+                                        <li>
+                                            <img src="image/png/burger.png" alt=""> 
+                                            <span>A new look on thew right food!</span>
+                                        </li>
+                                        <li>
+                                            <img src="image/png/wheat.png" alt="">
+                                            <span>The use of natural best quality products</span>
+                                        </li>
+                                        <li>
+                                            <img src="image/png/chef.png" alt="">
+                                            <span>World's best Chef and Nutritionist!</span>
+                                        </li>
+                                        <li>
+                                            <img src="image/png/delivery.png" alt="">
+                                            <span>Fastest delivery on your door step</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--=============review-section ends here===========-->
+
+    <!--=============testimonial-section starts here===========-->
+        <section class="our-testimonial">
+            <div class="container">
+                <div class="testi-content">
+                    <span class="testi-tags">
+                        testimonials
+                    </span>
+                    <h2 class="second-head">popular burgers</h2>
+                    <div class="slide-testi">
+                        <div class="person-info">
+                            <p class="para">
+                                They'er not the bragging type, but Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ratione voluptatem libero modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                the bragging type, but Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ratione voluptatem libero modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <h5 class="person-name">Michael Kim</h5>
+                            <p class="person-des">CO-Founder Amazon</p>
+                        </div> 
+                        <div class="person-info">
+                            <p class="para">
+                                They'er not the bragging type, but Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ratione voluptatem libero modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                the bragging type, but Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ratione voluptatem libero modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <h5 class="person-name">John Deo</h5>
+                            <p class="person-des">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--=============testimonial-section ends here===========-->
+
+    <!--=============chef-section ends here===========-->
+        <section class="our-chef">
+            <div class="container">
+                <div class="about-content">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6  col-sm-8 col-12">
+                            <h2 class="second-head">our talented chefs</h2>
+                        </div>
+                    
+                        <div class="col-lg-2 col-sm-4  col-12">
+                            <div class="button-box">
+                                <a href="#" class="btn order-btn">
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                    All Product
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-chef">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-10 mx-auto col-10">
+                            <div class="team">
+                                <img src="image/jpg/about_img_4.jpg" alt="">
+                                <h3 class="small-head">willian smith</h3>
+                                <p class="para">Everything We Pizza, We Pizza With Love, Designer Fastfood</p>
+                                <span>chef</span>
+                                <ul class="chef-info flex-box">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 mx-auto col-10">
+                            <div class="team">
+                                <img src="image/jpg/about_img_5.jpg" alt="">
+                                <h3 class="small-head">john doe</h3>
+                                <p class="para">Everything We Pizza, We Pizza With Love, Designer Fastfood</p>
+                                <span class="other-btn">manager</span>
+                                <ul class="chef-info flex-box">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10 mx-auto col-10">
+                            <div class="team">
+                                <img src="image/jpg/about_img_6.jpg" alt="">
+                                <h3 class="small-head">bradd l.</h3>
+                                <p class="para">Everything We Pizza, We Pizza With Love, Designer Fastfood</p>
+                                <span class="other-btn">chef</span>
+                                <ul class="chef-info flex-box">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--=============Chef-section ends here===========-->
+
+    <!--=============location-section starts here===========-->
+        <section class="our-located">
+            <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 px-0 col-sm-12 col-12">
+                    <div class="locate-us">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29472.58748224573!2d88.41647336243852!3d22.576356601557148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b020703c0d%3A0xece6f8e0fc2e1613!2sSector%20V%2C%20Bidhannagar%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1656329402119!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 px-0 col-sm-12 col-12">
+                    <div class="get-contact">
+                        <span class="testi-tags">reservation</span>
+                        <h2 class="second-head">book your table</h2>
+                        <form action="">
+                            <div class="form-row">
+                                <div class="form-group col-lg-12 ">
+                                    <input type="text" class="form-control" placeholder="Your name" id="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-12 ">
+                                    <input type="email" class="form-control" placeholder="Your email" id="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-12 ">
+                                    <input type="number" class="form-control" placeholder="Your number" id="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-6 col-sm-6 col-12">
+                                    <input type="date" class="form-control" placeholder="Date" id="">
+                                </div>
+                                <div class="form-group col-lg-6 col-sm-6 col-12">
+                                    <input type="time" class="form-control" placeholder="Time" id="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-12 ">
+                                    <input type="number" class="form-control" placeholder="People" id="">
+                                </div>
+                            </div>
+                            <div class="btn-box">
+                                <button type="submit" class="btn other-btn book-btn">Book Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>            
+            </div>
+        </section>
+    <!--=============Location-section ends here===========-->
+
+    <!--=============Footer-section starts here===========-->
+        <footer class="contact-us">
+                <div class="our-newsletter">
+                    <div class="container">
+                    <h2 class="second-head">subscribe to newsletter</h2>
+                    <p class="para">Subscribe to receive our weekly Hot Promotion every Monday</p>
+                        <div class="row">
+
+                            <form action="" class="col-lg-10 col-md-10 col-sm-12 col-12">
+                                <div class="form-row">
+                                    <div class="form-group col-lg-12  inside-btn">
+                                        <input type="email" class="form-control"  placeholder="Your email address">
+                                        <button type="submit" class="btn other-btn sign-btn">Sign up</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="user-info">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2 col-md-4 col-sm-5 col-5">
+                                <div class="footer-logo">
+                                    <img src="image/png/logo-Black.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    
+                
+                    </div>
+                    <div class="user-space">
+                        <div class="container">
+                            <div class="flex-box justify-content-between">
+                                <div class="user-intro">
+                                    <a href="#" class="shop-corner">
+
+                                        <i class="fas fa-store"></i>
+                                        Shop
+                                    </a>
+                                </div>
+                                <div class="user-intro">
+                                    <a href="#" class="search-corner">
+                                        <i class="fas fa-search"></i>
+                                        Search
+                                    </a>
+                                </div>
+                                <div class="user-intro">
+                                    <a href="#" class="account-corner">
+                                        <i class="far fa-user"></i>
+                                        My Account
+                                    </a>
+                                </div>
+                                <div class="user-intro">
+                                    <a href="#" class="list-corner">
+                                        <i class="far fa-heart"></i>
+                                        Watchlist
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </footer>
+    <!--=============Footer-section ends here===========-->
+        <!--<ul class="side-icon">
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-wordpress"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </li>
+        </ul>
+    -->
+    <!--
+    <div class="setting-box">
+        <a href="#" class="setting-btn">
+            <i class="fas fa-cog"></i>
+        </a>
+    </div>
+    -->
+
+        <!-- Optional JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/script.js"></script>
+
+
+    </body>
+
+</html>
+<!--
+<a href="#" class="btn order-btn">
+                        <i class="fas fa-cart-arrow-down"></i>
+                        Order Now
+                    </a>
+-->

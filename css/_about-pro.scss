@@ -1,0 +1,42 @@
+.about-product{
+    background-color: $bgColor;
+    position: relative;
+    padding: 120px 0 90px 0;
+    .about-pro-content{
+
+        .content{
+            color: $btnColor;
+
+            h5{
+                text-transform: uppercase;
+                font-weight: 700;
+                padding: 0;
+            }
+            h2{
+                text-transform: uppercase;
+                padding-bottom: 0;
+            }
+            p{
+                padding-bottom: 30px;
+            }
+
+
+
+        }
+
+
+        .image{
+            
+            img{    
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: -80px;
+                height: 600px;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+}

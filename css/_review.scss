@@ -1,0 +1,46 @@
+.our-review{
+    padding: 70px 0 120px 0;
+    .our-des{
+        justify-content: space-between;
+        align-items: center;
+        .image-view{
+            order: 2;
+            img{
+
+                width: 100%;
+                transform: matrix(1.3, 0, 0, 1.3, -120, 0);
+            }
+        }
+
+        .review-content{
+            order: 3;
+            h2{
+                text-transform: uppercase;
+                color: $headColor;
+            }
+            p{
+                color: $textColor;
+            } 
+        }
+        .element{
+
+            ul{
+
+                li{
+                    list-style-type: none;
+                    padding: 15px 0;
+                    span{
+                        color: $headColor;
+                        font-weight: 600;
+                        padding-left: 10px;
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
+
+}

@@ -1,0 +1,626 @@
+
+/*======MEDIA QUERRY STARTS HERE=====*/
+
+
+@media only screen and (min-width:1366px){
+/*========Root-element======*/
+%customButton{
+    padding: 18px 35px;
+    font-size: 0.75rem;
+    border-radius: 40px;
+}
+
+%tagButton{
+    padding: 5px 8px;
+   
+}
+/*========COMMON-CLASSES======*/
+
+html,body{
+    font-size: 24px;
+}
+.para{
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+.item-head{
+    font-size: 0.9rem;
+}
+.small-head{
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+/*=============NAVIGATION-SECTION=============*/
+.header-main{
+    height: 750px;
+   
+    .navigation-bar{ 
+
+        .navi-list{
+            display: flex;
+            order: 2;
+           
+
+        }
+
+        .nav-icon{ 
+            display: none;
+        }
+
+        .nav-logo{
+            order: 1;
+            img{
+                width: auto;
+                height: 100px;
+            }
+        }
+        .cart-box{
+            order: 3;  
+        }
+
+    }
+}
+.header-bg-image{
+    padding-top: 70px;
+}
+/*=============HEADER-SECTION=============*/
+/*=============BENEFITS-SECTION=============*/
+/*=============PRODUCT-SECTION=============*/
+
+/*=============ABOUT-PRODUCT-SECTION=============*/
+/*=============POPULAR-SECTION=============*/
+
+.our-testimonial{
+    .padding-info{
+        padding: 0;
+    }
+
+    .slick-prev, .slick-next{
+        width: 60px;
+        height: 60px;
+
+    }
+}
+/*=============REVIEW-SECTION=============*/
+/*=============TESMONIAL-SECTION=============*/
+/*=============CHEF-SECTION=============*/
+/*=============LOCATED-SECTION=============*/
+.our-located {
+
+    .get-contact{
+        padding: 70px 100px;
+
+        form{
+
+            input{
+                padding: 25px;
+            }
+        }
+
+    }
+
+}
+/*=============CONTACT-SECTION=============*/
+.contact-us{
+
+    .user-info{
+
+        .footer-logo{
+            transform: translateY(-35px);
+            img{
+                width: auto;
+                height: 75px;
+                object-fit: cover;
+            }
+        }
+
+    }
+
+
+    .our-newsletter{ 
+        form{
+            .inside-btn{
+
+                .sign-btn{
+                    bottom: -40px;
+                }
+
+                input{
+                    border-radius: 45px;
+                }
+            }           
+        }
+
+    }
+}
+/*=============FOOTER-SECTION=============*/
+
+
+
+
+}
+
+@media only screen and (max-width:991px){
+/*=============NAVIGATION-SECTION=============*/
+.navigation-icon{
+    display: none;
+
+}
+/*=============HEADER-SECTION=============*/
+/*=============BENEFITS-SECTION=============*/
+
+/*=============PRODUCT-SECTION=============*/
+/*=============ABOUT-PRODUCT-SECTION=============*/
+
+.about-product{
+
+    .about-pro-content{
+
+            .image{
+            
+                img{
+                    object-fit: contain;
+                    bottom: -120px;    
+                }
+            }
+    }
+
+}
+/*=============POPULAR-SECTION=============*/
+/*=============REVIEW-SECTION=============*/
+
+.our-review{
+
+    .our-des{
+
+        .image-view{
+            img{
+                padding-right: 20px;
+                transform: none;
+                transform: scale(1.3);
+            }
+        }
+
+    }
+}
+/*=============TESMONIAL-SECTION=============*/
+/*=============CHEF-SECTION=============*/
+.our-chef{
+
+    .about-chef{
+
+        .team{
+            margin-bottom: 20px;
+
+        }
+    }
+}
+/*=============CONTACT-SECTION=============*/
+/*=============LOCATED-SECTION=============*/
+/*=============FOOTER-SECTION=============*/
+
+
+
+}
+@media only screen and (max-width:768px){
+/*========COMMON-CLASSES======*/
+.ultra-head{
+    font-size: 2.5rem;
+
+}
+.main-head{
+    font-size: 2.2rem;
+
+
+}
+.second-head{
+    font-size: 1.5rem;
+    
+}
+.small-head{
+
+    font-size: 1.5rem;
+   
+}
+/*=============NAVIGATION-SECTION=============*/
+
+/*=============HEADER-SECTION=============*/
+.header-main{
+    height: 550px;
+    .header-content{
+        padding: 50px 0;
+    }
+}
+
+.our-review{
+    padding: 20px 0;
+
+    
+
+}
+
+/*=============BENEFITS-SECTION=============*/
+
+
+.our-product{
+
+    .product-navigation{
+        .product-nav{
+            flex-direction: column;
+        }
+
+    }
+
+}
+/*=============PRODUCT-SECTION=============*/
+/*=============ABOUT-PRODUCT-SECTION=============*/
+
+.about-product{
+    padding: 50px 0 20px 0;
+    .about-pro-content{
+
+            .image{
+            
+                img{
+                    position: relative;
+                    bottom: 0;
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+    }
+
+}
+/*=============POPULAR-SECTION=============*/
+/*=============REVIEW-SECTION=============*/
+
+/*=============TESMONIAL-SECTION=============*/
+
+.our-testimonial{
+
+    .person-info{
+        padding: 0 10px;
+
+    }
+}
+
+
+/*=============REVIEW-SECTION=============*/
+.our-review{
+
+    .our-des{
+
+        .image-view{
+            padding-bottom: 25px;
+            img{
+                transform: none
+            }
+
+        }
+    }
+
+}
+/*=============CHEF-SECTION=============*/
+/*=============LOCATED-SECTION=============*/
+.our-located{
+    .locate-us{
+        
+        iframe{
+            width: 100%;
+            height: 450px;
+        }        
+
+    }
+}
+/*=============LOCATED-SECTION=============*/
+/*=============CONTACT-SECTION=============*/
+/*=============FOOTER-SECTION=============*/
+
+
+
+}
+@media only screen and (max-width:576px){
+/*=============NAVIGATION-SECTION=============*/
+/*=============HEADER-SECTION=============*/
+.header-main{
+
+    .navigation-bar{
+
+        .nav-icon{
+
+            .nav-toggle-icon{
+                width: 60px;
+                height: 35px;
+            }
+        }
+    }
+
+}
+/*=============BENEFITS-SECTION=============*/
+/*=============PRODUCT-SECTION=============*/
+
+.delight-item{
+    padding-bottom: 0;
+   /* .item-align{
+        display: none;
+    }*/
+    .product-slide{
+        display: none;
+    }
+
+
+}
+/*=============ABOUT-PRODUCT-SECTION=============*/
+.about-product{
+    padding: 50px 0;
+
+    .about-pro-content{
+        .image{
+        
+            img{
+                display: none; 
+            }
+        }
+    }
+
+}
+/*=============POPULAR-SECTION=============*/
+.popular-product{
+
+    padding: 30px 0 0 0;
+
+
+    .item-align{
+        display: none;
+    }
+    .popular-content{
+        text-align: center;
+
+    }
+    .button-box{
+        text-align: center;
+    }
+    .popular-slide{
+        display: block;
+        position: relative;
+        .item{
+            text-align: center;
+            margin: 0 50px;
+            padding: 20px 10px;
+            border: 3px dashed $borderColor;
+            border-radius: 25px;
+            .image{
+
+                img{
+                    width: 75%;
+                    height: 220px;
+                    margin: 0 auto;
+                    object-fit: cover;
+                }
+            }
+
+            .content{
+                
+
+                .rate{
+                    padding: 15px 0;
+                }
+            }
+
+        }
+
+        .slick-dots{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;    
+
+            padding: 10px 0;
+            li{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 12px;
+                height: 12px;
+                margin-left: 10px;
+                color: $tagColor;
+                font-size: 0;
+                background-color: $tagColor;
+                border-radius: 50%;
+            }
+        }   
+        
+
+    }
+}
+/*=============REVIEW-SECTION=============*/
+.our-review{
+    padding: 0 0 20px 0;
+
+    .our-des{
+        .image-view{
+            img{
+              display: none;
+            }
+        }
+
+    }
+}
+/*=============TESMONIAL-SECTION=============*/
+.our-testimonial{
+
+    .slick-dots{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+
+        padding: 10px 0;
+        li{
+            margin-left: 10px;
+            width: 12px;
+            height: 12px;
+            font-size: 1px;
+            background-color: $tagColor;
+            border-radius: 50%;
+
+            button{
+                z-index: 2;
+                opacity: 0;
+                color: $tagColor;
+            }
+
+        }
+    }   
+
+}
+/*=============CHEF-SECTION=============*/
+.our-chef{
+
+    .about-content{
+        text-align: center;
+
+       
+    }
+
+}
+/*=============LOCATED-SECTION=============*/
+/*=============FOOTER-SECTION=============*/
+
+
+
+}
+@media only screen and (max-width:480px){
+/*=============NAVIGATION-SECTION=============*/
+.header-main{
+    height: 450px;
+    .navigation-bar{
+
+        .nav-logo{
+            display: none;
+        }
+    
+        .nav-icon{
+
+            .nav-toggle-icon{
+                width: 50px;
+                height: 35px;
+            }
+        }
+    }
+   
+
+}
+/*=============HEADER-SECTION=============*/
+.ultra-head{
+    font-size: 1.8rem;
+
+}
+.small-head{
+
+    font-size: 1.2rem;
+   
+}
+/*=============BENEFITS-SECTION=============*/
+
+/*=============PRODUCT-SECTION=============*/
+
+/*=============ABOUT-PRODUCT-SECTION=============*/
+/*=============POPULAR-SECTION=============*/
+/*=============REVIEW-SECTION=============*/
+
+/*=============TESMONIAL-SECTION=============*/
+/*=============CHEF-SECTION=============*/
+
+/*=============LOCATED-SECTION=============*/
+.our-located{
+
+    .locate-us{
+        
+        iframe{
+            width: 100%;
+            height: 350px;
+        }        
+
+    }
+}
+/*=============CONTACT-SECTION=============*/
+.contact-us{
+
+    .our-newsletter{
+        form{
+            
+            .inside-btn{
+
+                input{
+                    padding: 16px 25px;
+                }
+
+                .sign-btn{
+                    padding: 10px 35px;
+                }
+            }
+        }
+    }
+
+    .user-info{
+
+        .user-space{
+
+            .user-intro{
+
+                a{
+                    .fas,.far{
+                        font-size: 1rem;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+/*=============FOOTER-SECTION=============*/
+
+
+
+}
+@media only screen and (max-width:360px){
+.ultra-head{
+    font-size: 1.5rem;
+
+}
+/*=============NAVIGATION-SECTION=============*/
+/*=============HEADER-SECTION=============*/
+/*=============BENEFITS-SECTION=============*/
+/*=============PRODUCT-SECTION=============*/
+/*=============ABOUT-PRODUCT-SECTION=============*/
+/*=============POPULAR-SECTION=============*/
+/*=============REVIEW-SECTION=============*/
+/*=============TESMONIAL-SECTION=============*/
+/*=============CHEF-SECTION=============*/
+/*=============CONTACT-SECTION=============*/
+/*=============LOCATED-SECTION=============*/
+/*=============FOOTER-SECTION=============*/
+
+
+
+}
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }

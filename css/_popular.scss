@@ -1,0 +1,16 @@
+.popular-product{
+    padding: 25px 0;
+
+    .popular-content{
+
+        h2{
+            color: $headColor;
+            text-transform: uppercase;
+        }
+    }
+   
+    .popular-slide{
+        display: none;
+
+    }
+}

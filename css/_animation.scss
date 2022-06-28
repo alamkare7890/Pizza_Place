@@ -1,0 +1,42 @@
+.order-btn::before, .order-btn::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    border-radius: 30px;
+    background: linear-gradient(18deg,  $bgColor, $mainColor, $secondaryHover);
+    opacity: 0.6;
+    z-index: -1;
+    transition: all 0.2s ease;
+}
+.order-btn:hover{
+    color: $btnColor;
+    border: 1px solid $mainColor;
+}
+.order-btn::after{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: all 0.3s ease;
+    
+}
+.order-btn::before{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    transition: all 0.3s ease;
+    
+}
+.order-btn:hover:before, .order-btn:hover:after{
+    height: 100%;
+
+
+}
+.other-btn:hover{
+    color: $mainColor;
+    background-color: $btnColor;
+    border: 1px solid $mainColor;
+    font-weight: 700;
+}

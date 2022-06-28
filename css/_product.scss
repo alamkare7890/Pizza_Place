@@ -1,0 +1,114 @@
+.our-product{
+    padding-bottom: 30px;
+    .product-head{
+        text-align: center;
+
+        h2{
+            color: $textColor;
+        }
+
+    }
+   
+    .product-navigation{
+        justify-content: center;
+        margin: 0;
+        .product-nav{
+            flex-direction: row;
+            
+
+            .get-item{
+                border-radius: 30px;
+                display: inline-block;
+                text-align: center;
+                padding: 0;
+                padding: 8px 15px;
+                color: $textColor;
+                font-weight: 600;
+                margin-left: 15px;
+                border: none;
+            }
+            .get-item.active{
+                background-color: $mainColor;
+                color: $btnColor;
+            }
+
+        }
+
+    }
+}
+
+
+.delight-item{
+    padding: 30px 0;
+    width: 100%;
+    justify-content: space-around;
+   
+    .product-slide{
+        display: none;
+    }
+    
+
+    .item-align{
+        justify-content: space-evenly;
+        .item{
+            padding: 20px 10px;
+            border: 3px dashed $borderColor;
+            margin-bottom: 25px;
+            border-radius: 25px;
+            transition: all 0.4s ease;
+            .image{
+                width: 100%;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+
+            }
+
+            .content{
+                text-align: center;
+
+                h4{
+                    text-transform: uppercase;
+                    color: $iconColor;
+                    padding-bottom: 0;
+                }
+                p{
+                    font-size: 0.85rem;
+                    color: $contentColor;
+                    padding-bottom: 0;
+                }
+                a{
+                    font-size: 0.85rem;
+                    padding: 12px 18px;
+                    border: 1px solid $borderColor; 
+                }
+                .rate{
+                    padding-bottom: 10px;
+
+                    span{
+                        font-weight: 800;
+                        color: $mainColor;
+                        font-size: 1.1rem;
+                    }
+                    del{
+                        color: $contentColor;
+                        font-size: 0.75rem; 
+                        font-weight: 500;
+                    }
+                }
+
+
+            }
+        }
+
+        .item:hover{
+            border: 3px dashed $mainColor;
+
+        }
+    }
+}
+
+
+
+

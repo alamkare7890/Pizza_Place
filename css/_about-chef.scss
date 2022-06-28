@@ -1,0 +1,58 @@
+.our-chef{
+    padding: 40px 0;
+
+    .about-content{
+        justify-content: space-between;
+        padding: 15px 0;
+        h2{
+            text-transform: uppercase;
+        }
+    }
+
+    .about-chef{
+        padding-top: 30px;
+        justify-content: space-evenly;
+        .team{
+            text-align: center;
+            padding: 15px;
+            background-color: #fff;
+            border: 3px dashed $borderColor;
+            border-radius: 15px;
+            img{
+                width: 100%;
+            }
+            h3{
+                color: $iconColor;
+                font-size: 1.2rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding-top: 10px;
+            }
+            p{
+                color: $contentColor;
+            }
+            span{
+               @extend %tagButton;
+            }
+        }
+        .team:hover{
+            border: 3px dashed $mainColor;
+        }
+        .chef-info{
+            padding-top: 20px;
+            justify-content: space-around;
+            li{
+                list-style-type: none;
+
+                a{
+                    font-size: 1rem;
+                    color: $mainColor;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+
+}

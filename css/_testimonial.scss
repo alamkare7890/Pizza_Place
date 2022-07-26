@@ -12,10 +12,14 @@
             color: $btnColor;
             padding: 20px 0;
         }
-        
+        p{
+            overflow: hidden;
+            -webkit-line-clamp: 4;   
+
+        }
 
     }
-
+ 
     .person-info{
         padding: 0 70px;
         color: $borderColor;

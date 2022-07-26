@@ -1,7 +1,7 @@
 /*All Variables start from here*/
 $mainColor: #C6202E;
 $btnColor: #fff;
-$headColor: #333333;
+$headColor: #333333; 
 $bgColor: #76C3D4;
 $formColor: #EFDCCF;
 $tagColor: #D6E664;
@@ -9,7 +9,7 @@ $iconColor: #000;
 $borderColor: #E0E0E0;
 $textColor: #333333;
 $primaryHover:#92202e;
-$secondaryHover: #9ba849;
+$secondaryHover: #9ba849; 
 $contentColor:#828282;
 $formbgColor:#F7F2E2;
 $headFont:'Oswald', sans-serif;
@@ -167,8 +167,8 @@ html,body{
 /*=============LOCATED-SECTION=============*/
 @import"review";
 
-@import"testimonial";
-
+@import"testimonial"; 
+ 
 @import "about-chef";
 /*=============FOOTER-SECTION=============*/
 @import "located";
@@ -177,6 +177,6 @@ html,body{
 
 @import "media";
 
-@import "animation"
+@import "animation";
 
 

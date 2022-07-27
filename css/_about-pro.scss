@@ -1,5 +1,9 @@
 .about-product{
     background-color: $bgColor;
+    background-image: url(../image/png/h2_shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     padding: 120px 0 90px 0;
     .about-pro-content{

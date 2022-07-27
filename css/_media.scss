@@ -40,12 +40,11 @@ html,body{
     .navigation-bar{ 
 
         .navi-list{
-            display: flex;
             order: 2;
-           
+            display: flex;
 
         }
-
+       
         .nav-icon{ 
             display: none;
         }
@@ -142,14 +141,79 @@ html,body{
 
 
 }
+@media only screen and (min-width:1200px) {
+.header-main{
+    .navigation-bar{
 
+        .toggle-div{
+            display: none;
+        }
+        .navi-list{
+            order: 2;
+            display: flex;
+
+        }
+
+        .nav-icon{ 
+            display: none;
+        }
+
+        .nav-logo{
+            order: 1;
+            img{
+                width: auto;
+                height: 100px;
+            }
+        }
+        .cart-box{
+            order: 3;  
+        }
+
+        
+
+
+    }
+}
+@media only screen and (max-width: 1200px){
+
+    .header-main{
+
+        .navigation-bar{
+
+            .navi-list{
+                display: none;
+            }
+
+
+        } 
+    }
+
+}
+}
 @media only screen and (max-width:991px){
 /*=============NAVIGATION-SECTION=============*/
 .navigation-icon{
     display: none;
 
 }
+
 /*=============HEADER-SECTION=============*/
+.header-main{
+
+    .navigation-bar{
+
+        .toggle-div{
+
+            .toggle-nav{
+                padding-top: 70px;
+
+            }
+
+        }
+
+
+    }
+}
 /*=============BENEFITS-SECTION=============*/
 
 /*=============PRODUCT-SECTION=============*/
@@ -159,13 +223,13 @@ html,body{
 
     .about-pro-content{
 
-            .image{
-            
-                img{
-                    object-fit: contain;
-                    bottom: -120px;    
-                }
+        .image{
+        
+            img{
+                object-fit: contain;
+                bottom: -120px;    
             }
+        }
     }
 
 }
@@ -561,7 +625,7 @@ html,body{
                 }
 
                 .sign-btn{
-                    padding: 10px 35px;
+                    padding: 10px 30px;
                 }
             }
         }
@@ -604,6 +668,26 @@ html,body{
 /*=============TESMONIAL-SECTION=============*/
 /*=============CHEF-SECTION=============*/
 /*=============CONTACT-SECTION=============*/
+.contact-us{
+
+    .our-newsletter{
+        form{
+            
+            .inside-btn{
+
+                input{
+                    padding: 12px 25px;
+                }
+
+                .sign-btn{
+                    padding: 8px 25px;
+                    bottom: -48px;
+                    right: 10px;
+                } 
+            }
+        }
+    }
+}
 /*=============LOCATED-SECTION=============*/
 /*=============FOOTER-SECTION=============*/
 

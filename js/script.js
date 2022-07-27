@@ -7,7 +7,19 @@ $(document).ready(function () {
         colToggle.classList.toggle('active');
 
     }
+    /*======toggle-nav=====*/
+    $('#colToggle').click(function () { 
+
+        $('#slideNav').addClass('slide-nav')
     
+    
+    })
+    $('#navClose').click(function () {
+    
+        $('#slideNav').removeClass('slide-nav')
+    
+    
+    })
     
     $(".slide-testi").slick({
     

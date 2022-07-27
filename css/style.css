@@ -128,7 +128,7 @@ html, body {
 /*=============HEADER-SECTION=============*/
 .header-main {
   width: 100%;
-  padding: 30px 0;
+  padding-bottom: 30px;
   position: relative;
   height: 600px;
 }
@@ -160,6 +160,88 @@ html, body {
 .header-main .navigation-bar .navi-list li a:hover {
   color: #D6E664;
 }
+.header-main .navigation-bar .toggle-div {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  z-index: 10;
+}
+.header-main .navigation-bar .toggle-div .toggle-nav {
+  background-color: #C6202E;
+  padding: 30px;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  left: -100%;
+  transition: all 0.8s linear;
+}
+.header-main .navigation-bar .toggle-div .toggle-nav li {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.2235294118);
+  transition: all 0.3s linear;
+}
+.header-main .navigation-bar .toggle-div .toggle-nav li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-main .navigation-bar .toggle-div .toggle-nav li:hover {
+  background: #fff;
+}
+.header-main .navigation-bar .toggle-div .toggle-nav li:hover a {
+  color: #C6202E;
+}
+.header-main .navigation-bar .toggle-div .toggle-nav a.active {
+  color: #D6E664;
+}
+.header-main .navigation-bar .toggle-div .slide-nav {
+  left: 0;
+  transition: all 0.8s linear;
+  -webkit-animation: slide-nav 0.8s linear;
+          animation: slide-nav 0.8s linear;
+}
+.header-main .navigation-bar .toggle-div .nav-header {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+.header-main .navigation-bar .toggle-div .nav-header .slide-nav-logo {
+  width: 200px;
+  height: 68px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header-main .navigation-bar .toggle-div .nav-header .closebtn {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  padding-left: 10px;
+}
+.header-main .navigation-bar .toggle-div .nav-header .closebtn::before, .header-main .navigation-bar .toggle-div .nav-header .closebtn::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 7%;
+  border-radius: 3px;
+  background-color: #fff;
+  transform: translateX(5px);
+  cursor: pointer;
+}
+.header-main .navigation-bar .toggle-div .nav-header .closebtn::before {
+  top: 18px;
+  transform: rotate(-45deg);
+}
+.header-main .navigation-bar .toggle-div .nav-header .closebtn::after {
+  bottom: 18px;
+  transform: rotate(45deg);
+}
 .header-main .navigation-bar .nav-icon a {
   color: #fff;
   transition: all 0.3s ease;
@@ -167,7 +249,11 @@ html, body {
 .header-main .navigation-bar .nav-icon a:hover {
   color: #9ba849;
 }
-.header-main .navigation-bar .nav-icon .nav-toggle-icon {
+.header-main .navigation-bar .nav-icon button {
+  border: none;
+  outline: none;
+}
+.header-main .navigation-bar .nav-icon button .nav-toggle-icon {
   width: 60px;
   height: 60px;
   border-radius: 5px;
@@ -196,13 +282,6 @@ html, body {
 .header-main .navigation-bar .nav-icon .nav-toggle-icon::after {
   transform: translateY(15px);
 }
-.header-main .navigation-bar .nav-icon .nav-toggle-icon.active::before {
-  box-shadow: none;
-  transform: translateY(0) rotate(45deg);
-}
-.header-main .navigation-bar .nav-icon .nav-toggle-icon.active::after {
-  transform: translateY(0) rotate(-45deg);
-}
 .header-main .navigation-bar .nav-logo img {
   width: auto;
   height: 68px;
@@ -228,9 +307,6 @@ html, body {
 }
 .header-main .navigation-bar .cart-box a:hover span {
   background-color: #fff;
-}
-.header-main .navigation-bar .toggle-nav {
-  position: absolute;
 }
 .header-main .header-content {
   text-align: center;
@@ -454,6 +530,11 @@ html, body {
   text-transform: uppercase;
   color: #000;
   padding-bottom: 0;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
 }
 .delight-item .item-align .item .content p {
   font-size: 0.85rem;
@@ -485,6 +566,10 @@ html, body {
 /*=============ABOUT-SECTION=============*/
 .about-product {
   background-color: #76C3D4;
+  background-image: url(../image/png/h2_shape.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding: 120px 0 90px 0;
 }
@@ -577,6 +662,9 @@ html, body {
 .our-testimonial .testi-content p {
   overflow: hidden;
   -webkit-line-clamp: 4;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
 }
 .our-testimonial .person-info {
   padding: 0 70px;
@@ -799,8 +887,8 @@ html, body {
     height: 750px;
   }
   .header-main .navigation-bar .navi-list {
-    display: flex;
     order: 2;
+    display: flex;
   }
   .header-main .navigation-bar .nav-icon {
     display: none;
@@ -858,12 +946,42 @@ html, body {
   }
   /*=============FOOTER-SECTION=============*/
 }
+@media only screen and (min-width: 1200px) {
+  .header-main .navigation-bar .toggle-div {
+    display: none;
+  }
+  .header-main .navigation-bar .navi-list {
+    order: 2;
+    display: flex;
+  }
+  .header-main .navigation-bar .nav-icon {
+    display: none;
+  }
+  .header-main .navigation-bar .nav-logo {
+    order: 1;
+  }
+  .header-main .navigation-bar .nav-logo img {
+    width: auto;
+    height: 100px;
+  }
+  .header-main .navigation-bar .cart-box {
+    order: 3;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+  .header-main .navigation-bar .navi-list {
+    display: none;
+  }
+}
 @media only screen and (max-width: 991px) {
   /*=============NAVIGATION-SECTION=============*/
   .navigation-icon {
     display: none;
   }
   /*=============HEADER-SECTION=============*/
+  .header-main .navigation-bar .toggle-div .toggle-nav {
+    padding-top: 70px;
+  }
   /*=============BENEFITS-SECTION=============*/
   /*=============PRODUCT-SECTION=============*/
   /*=============ABOUT-PRODUCT-SECTION=============*/
@@ -1101,7 +1219,7 @@ html, body {
     padding: 16px 25px;
   }
   .contact-us .our-newsletter form .inside-btn .sign-btn {
-    padding: 10px 35px;
+    padding: 10px 30px;
   }
   .contact-us .user-info .user-space .user-intro a .fas, .contact-us .user-info .user-space .user-intro a .far {
     font-size: 1rem;
@@ -1122,6 +1240,14 @@ html, body {
   /*=============TESMONIAL-SECTION=============*/
   /*=============CHEF-SECTION=============*/
   /*=============CONTACT-SECTION=============*/
+  .contact-us .our-newsletter form .inside-btn input {
+    padding: 12px 25px;
+  }
+  .contact-us .our-newsletter form .inside-btn .sign-btn {
+    padding: 8px 25px;
+    bottom: -48px;
+    right: 10px;
+  }
   /*=============LOCATED-SECTION=============*/
   /*=============FOOTER-SECTION=============*/
 }
@@ -1167,4 +1293,22 @@ html, body {
   background-color: #fff;
   border: 1px solid #C6202E;
   font-weight: 700;
+}
+
+@-webkit-keyframes slide-nav {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-nav {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */

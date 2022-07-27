@@ -1,30 +1,57 @@
+@mixin overLay{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.303);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: 1;
+    transition: all 0.3s linear;
+}
+
 .our-benefit{
     padding: 50px 0;
 
-    .bg-wrap-image, .bg-break-image{
+    .bg-image{
         position: relative;
+        z-index: 0;
+        cursor: pointer;
         margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 20px;
         img{
-            border-radius: 20px;
             width: 100%;
             height: 300px;
             object-fit: cover;
+            transform: scale(1);
+            transition: all 0.3s linear;
         }
     }
-    
-    .bg-chicken-image{
-        position: relative;
-
-        img{
-            border-radius: 20px;
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-
-        } 
-         
+    .bg-content{
+        text-align: center;
+        padding: 50px 0 50px 50px;
+        position: absolute;
+        left: 0;
+        top: 0; 
+        color: $btnColor;
+        z-index: 0;
+        transition: all 0.3s linear;
+    }
+    .bg-image:hover img{
+        transform: scale(1.2);
 
     }
+    .bg-image::before{
+        @include overLay();
+    }
+    .bg-image:hover::before{
+        opacity: 0;
+    }
+         
+
+  
 /*
     .bg-wrap-image::before, .bg-break-image::before,   .bg-chicken-image::before{
         content: "";
@@ -41,17 +68,6 @@
         opacity: 0;
     }
 */
-    .break-content, .wrap-content, .chicken-content{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0; 
-        padding: 80px 50px;
-        color: $btnColor;
-        
-
-    }
 
 
 
@@ -59,14 +75,13 @@
 
 
 
-/*
+    /*
     .break-overlay, .wrap-overlay, .chicken-overlay{
         @extend %overLay;
     }
   */
     .benefit-content{
         padding: 30px 0 ;
-
         .facility{
            /* .image{
                 img{

@@ -7,10 +7,15 @@
     .navigation-icon{
         a{
             color: $btnColor;
-            transition: all 0.3s ease;
+            transition: all 0.3s ease; 
         }
         a:hover{
             color: $tagColor;
+        }
+        .coun-drop{
+            padding: 20px;
+            background-color: $bgColor; 
+            border-radius: 5px;
         }
 
     }

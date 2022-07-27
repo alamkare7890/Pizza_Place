@@ -63,5 +63,18 @@ $(document).ready(function () {
         dots: true,
         arrows: false,
     })
+    /*=========scroll-top========*/
+        scrollTop.oclick = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        
+        })
+     
+    
+        }
+    /*=======aos======*/
+    AOS.init();
 
+    
 })

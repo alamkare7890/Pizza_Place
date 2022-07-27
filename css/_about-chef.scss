@@ -48,7 +48,12 @@
                     font-size: 1rem;
                     color: $mainColor;
                     text-decoration: none;
+                    transition: all 0.4s linear;
                 }
+
+                a:hover{
+                    color: $tagColor;
+                } 
             }
         }
 

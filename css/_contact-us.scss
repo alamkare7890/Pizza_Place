@@ -60,6 +60,7 @@
 
             .user-intro{  
                 a{
+                    transition: all 0.4s linear;
                     text-align: center;
                     text-decoration: none;
                     color: $btnColor;
@@ -69,6 +70,9 @@
                         font-size: 1.5rem;
                         display: block;
                     }
+                }
+                a:hover{
+                    color: $tagColor;
                 }
 
             }
